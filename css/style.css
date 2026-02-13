@@ -93,15 +93,9 @@ main {
   color: var(--text);
 }
 
-.site-header .logo img {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-sm);
-}
-
-.site-header .logo span {
-  font-size: 1.125rem;
-  font-weight: 700;
+.site-header .logo-wordmark {
+  height: 48px;
+  width: auto;
 }
 
 .site-nav {
@@ -491,8 +485,8 @@ main {
 }
 
 @media (max-width: 400px) {
-  .site-header .logo span {
-    font-size: 1rem;
+  .site-header .logo-wordmark {
+    height: 36px;
   }
 
   .site-nav {

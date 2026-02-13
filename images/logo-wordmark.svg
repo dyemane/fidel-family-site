@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" width="360" height="80">
+  <!-- Icon mark — small rounded square with ፊ -->
+  <rect x="0" y="4" width="72" height="72" rx="16" fill="#FFD93D"/>
+  <text x="36" y="48" text-anchor="middle" dominant-baseline="central"
+        font-family="-apple-system, 'Segoe UI', sans-serif"
+        font-size="44" font-weight="700" fill="#1A1A2E">&#4938;</text>
+  <circle cx="57" cy="60" r="5" fill="#FF6B6B"/>
+  <!-- Wordmark -->
+  <text x="88" y="36" font-family="-apple-system, 'Segoe UI', sans-serif"
+        font-size="16" font-weight="600" fill="#6B7280" letter-spacing="1.5">&#4941;&#4848;&#4621; &#4708;&#4720;&#4656;&#4709;</text>
+  <text x="88" y="60" font-family="-apple-system, 'Segoe UI', sans-serif"
+        font-size="26" font-weight="800" fill="#1A1A2E" letter-spacing="0.5">Fidel Family</text>
+</svg>
