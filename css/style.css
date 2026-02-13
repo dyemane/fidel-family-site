@@ -93,9 +93,27 @@ main {
   color: var(--text);
 }
 
-.site-header .logo-wordmark {
-  height: 48px;
-  width: auto;
+.site-header .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.site-header .logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.site-header .logo-geez {
+  font-size: 0.6875rem;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.site-header .logo-name {
+  font-size: 1.125rem;
+  font-weight: 700;
 }
 
 .site-nav {
@@ -485,8 +503,8 @@ main {
 }
 
 @media (max-width: 400px) {
-  .site-header .logo-wordmark {
-    height: 36px;
+  .site-header .logo-geez {
+    display: none;
   }
 
   .site-nav {
